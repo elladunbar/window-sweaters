@@ -1,5 +1,7 @@
 #include <bootstrap.h>
 #include <CoreFoundation/CoreFoundation.h>
+#include <stdlib.h>
+#include <string.h>
 #include "mach.h"
 
 mach_port_t mach_get_bs_port(char* bs_name) {
@@ -54,7 +56,26 @@ void mach_send_message(mach_port_t port, void* message, uint32_t len) {
 void mach_message_callback(CFMachPortRef port, void* data, CFIndex size, void* context) {
   struct mach_server* mach_server = context;
   struct mach_message* message = data;
-  mach_server->handler(message->descriptor.address, message->descriptor.size);
+  // Any process in the session can send here, so trust nothing about the
+  // message: it must carry exactly one out-of-line buffer, and that buffer
+  // is copied and terminated before it is parsed as a list of strings.
+  if (size < (CFIndex)sizeof(struct mach_message)
+      || !(message->header.msgh_bits & MACH_MSGH_BITS_COMPLEX)
+      || message->msgh_descriptor_count != 1
+      || message->descriptor.type != MACH_MSG_OOL_DESCRIPTOR) {
+    mach_msg_destroy(&message->header);
+    return;
+  }
+
+  uint32_t len = message->descriptor.size;
+  char* copy = malloc((size_t)len + 2);
+  if (copy) {
+    if (len) memcpy(copy, message->descriptor.address, len);
+    copy[len] = '\0';
+    copy[len + 1] = '\0';
+    mach_server->handler(copy, len);
+    free(copy);
+  }
   mach_msg_destroy(&message->header);
 }
 
