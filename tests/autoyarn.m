@@ -253,7 +253,7 @@ int main(void) { @autoreleasepool {
   assert(request("Table full",800,&yarn)>=0);
   puts("PASS: chart-capacity fallback and recovery after reload");
 
-  // Shared Zigzag: every app in its icon's colour, the 37 included, on a
+  // Shared Zigzag: every app in its icon's colour, the 40 included, on a
   // cream zigzag, or a deeper shade of its own colour when that is pale.
   knit_charts_load(NULL);knit_flush_cache();
   int zig=knit_chart_index("zigzag");

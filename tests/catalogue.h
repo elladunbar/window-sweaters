@@ -39,5 +39,8 @@ static const struct catalogue_entry catalogue[] = {
   { "Adobe Illustrator", "Adobe Illustrator", "atelier-illustrator", "Espresso, orange, apricot", "Warm rugby stripes" },
   { "Terminal", "Terminal", "atelier-terminal", "Charcoal green, soft sage", "Sage stripes with matching knitted corners" },
   { "Cursor", "Cursor", "atelier-cursor", "Warm charcoal, stone", "Soft stone zigzags on charcoal knit" },
+  { "Zen", "Zen", "atelier-zen", "Charcoal, ivory", "Ivory ripple rings on charcoal knit" },
+  { "Zen Work", "Zen Work", "atelier-zen", "Forest green, cream", "Cream ripple rings on forest knit" },
+  { "Element", "Element", "atelier-element", "Element green, white", "White pinwheel arcs on green knit" },
 };
 enum { CATALOGUE_COUNT = sizeof catalogue / sizeof catalogue[0] };

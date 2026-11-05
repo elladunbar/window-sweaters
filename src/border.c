@@ -120,7 +120,7 @@ static void border_draw(struct border* border, CGRect frame, struct settings* se
     const struct app_rule* rule = knit_app_rule(border->app);
     if (rule) yarn = rule->color;
     if (knit_zigzag_active()) {
-      // One shared pattern, every app in its icon's colour, the 37
+      // One shared pattern, every app in its icon's colour, the 40
       // hand-designed sweaters included; their own colours stay in By App.
       knit_zigzag_yarn(border->app, border->owner_pid, &yarn, &chart);
     } else if (!rule) {

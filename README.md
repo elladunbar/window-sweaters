@@ -40,7 +40,7 @@ If macOS asks for Accessibility access, enable Window Sweaters in **System Setti
 
 ## The sweaters
 
-**Custom sweaters for 37 apps, and counting!** Almost 40 little colourways, with colours picked by hand. These are just a few of my favourites:
+**Custom sweaters for 40 apps, and counting!** 40 little colourways, with colours picked by hand. These are just a few of my favourites:
 
 ![Eight apps shown in By App and Zigzag styles, with enlarged yarn details](docs/collection/styles-comparison.png)
 
@@ -51,13 +51,13 @@ Shown above in By App and Zigzag. Here’s everyone we’ve knitted for so far:
 - **Coding and AI:** Cursor, VS Code, Claude, ChatGPT, Codex, Grok Bot, Ghostty.
 - **Design:** Figma, Adobe Photoshop, Adobe Illustrator.
 - **Microsoft Office:** Word, Excel, PowerPoint, Outlook.
-- **More favourites:** Spotify, WhatsApp, Google Chrome, Firefox, Telegram, Discord.
+- **More favourites:** Spotify, WhatsApp, Google Chrome, Firefox, Zen, Zen Work, Telegram, Discord, Element.
 
-See every sweater and its close-up stitches in the [catalogue](docs/COLLECTION.md), or download the [By App PDF](docs/catalogues/Window-Sweaters-Catalogue.pdf).
+See every sweater and its close-up stitches in the [catalogue](docs/COLLECTION.md), or download the [By App PDF](docs/catalogues/Window-Sweaters-Catalogue.pdf) (the original 37).
 
-The 37 custom sweaters keep their hand-picked colours and patterns. Other apps borrow colours from their own icons, softened into yarn, and get a two-colour zigzag, picnic or twinkle sweater in **By App** mode. The pattern stays the same for each app. If an icon has no usable colour, the app keeps a stable colour chosen from its name.
+The 40 custom sweaters keep their hand-picked colours and patterns. Other apps borrow colours from their own icons, softened into yarn, and get a two-colour zigzag, picnic or twinkle sweater in **By App** mode. The pattern stays the same for each app. If an icon has no usable colour, the app keeps a stable colour chosen from its name.
 
-Icons are sampled locally in the background when needed. While the colour is being prepared, the border uses its usual fallback. **Zigzag** uses icon colours for every app, the 37 custom ones included, with a cream zigzag, or a deeper shade of the app’s colour on pale apps. Colours you set in `apps.conf` always win. Other shared patterns keep their own contrast yarns, with each app’s own base colour.
+Icons are sampled locally in the background when needed. While the colour is being prepared, the border uses its usual fallback. **Zigzag** uses icon colours for every app, the 40 custom ones included, with a cream zigzag, or a deeper shade of the app’s colour on pale apps. Colours you set in `apps.conf` always win. Other shared patterns keep their own contrast yarns, with each app’s own base colour.
 
 ## A little work in progress
 

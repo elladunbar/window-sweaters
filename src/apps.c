@@ -58,6 +58,9 @@ static const struct app_rule k_collection[] = {
   { "Granola", 0xff292e2au, "atelier-granola" },
   { "Terminal", 0xff303c35u, "atelier-terminal" },
   { "ghostty", 0xff2b3350u, "atelier-ghostty" },
+  { "Zen", 0xff232322u, "atelier-zen" },
+  { "Zen Work", 0xff1a5632u, "atelier-zen" },
+  { "Element", 0xff0b9e79u, "atelier-element" },
 };
 
 static const char* k_default_conf =
@@ -72,7 +75,7 @@ static const char* k_default_conf =
   "#\n"
   "# Edit, then restart Window Sweaters to load your changes.\n"
   "\n"
-  "# 37 apps already have their own yarn and chart; see docs/COLLECTION.md.\n"
+  "# 40 apps already have their own yarn and chart; see docs/COLLECTION.md.\n"
   "# Uncomment to customize:\n"
   "# Claude = #D58561 atelier-claude\n";
 

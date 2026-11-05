@@ -1,18 +1,18 @@
 # The sweater collection
 
-37 app-inspired colourways, rendered by Window Sweaters. Choose **Pattern → By App** to give each app its own sweater, or **Zigzag** for a shared pattern in each app’s icon colour.
+40 app-inspired colourways, rendered by Window Sweaters. Choose **Pattern → By App** to give each app its own sweater, or **Zigzag** for a shared pattern in each app’s icon colour.
 
-[Download the By App catalogue](catalogues/Window-Sweaters-Catalogue.pdf)
+[Download the By App catalogue](catalogues/Window-Sweaters-Catalogue.pdf) (the original 37 apps; Zen, Zen Work and Element are only on this page)
 
 The PDF shows the default **12 pt width and six stitch rows**. The reference plates below use 10 pt borders and include enlarged yarn and all four corners. All collection images use the actual app renderer and built-in colourways, without personal overrides.
 
 ## Design notes
 
-Visible knitted stitches, restrained colour palettes, and familiar sweater patterns connect the collection. Some designs share a pattern: Spotify and Notion use checks; Teams, Cursor, Codex, and ChatGPT use zigzags. Codex and ChatGPT intentionally share the same colourway.
+Visible knitted stitches, restrained colour palettes, and familiar sweater patterns connect the collection. Some designs share a pattern: Spotify and Notion use checks; Teams, Cursor, Codex, and ChatGPT use zigzags. Codex and ChatGPT intentionally share the same colourway. Zen and Zen Work share their ring motif, each in its own icon colour.
 
 Most corners continue the pattern. WhatsApp uses textured corner patches; Notes and Calendar have curved outer cuffs. Stitch direction changes and partial motifs can remain visible at corner joins, especially when enlarged. The images show a reference window size, not a guarantee of identical joins at every size.
 
-Global Zigzag gives every app one shared pattern in colours taken from its own icon, softened into yarn, with a cream zigzag. On a pale app the zigzag is a deeper shade of the app’s own colour instead, so it still shows. This includes the 37 apps above: their hand-picked colours stay in By App. An app whose icon has no usable colour keeps its usual colour, and a colour you set yourself in `apps.conf` always wins. If you replace the pattern with your own `zigzag.png`, it is shown exactly as you drew it. In the rare case Window Sweaters runs out of room for a pale app’s zigzag, that app knits plain until there is room.
+Global Zigzag gives every app one shared pattern in colours taken from its own icon, softened into yarn, with a cream zigzag. On a pale app the zigzag is a deeper shade of the app’s own colour instead, so it still shows. This includes the 40 apps above: their hand-picked colours stay in By App. An app whose icon has no usable colour keeps its usual colour, and a colour you set yourself in `apps.conf` always wins. If you replace the pattern with your own `zigzag.png`, it is shown exactly as you drew it. In the rare case Window Sweaters runs out of room for a pale app’s zigzag, that app knits plain until there is room.
 
 App names describe colour inspiration and do not imply affiliation or endorsement.
 
@@ -57,6 +57,9 @@ App names describe colour inspiration and do not imply affiliation or endorsemen
 | [Adobe Illustrator](#35-adobe-illustrator) | Espresso, orange, apricot | Warm rugby stripes |
 | [Terminal](#36-terminal) | Charcoal green, soft sage | Sage stripes with matching knitted corners |
 | [Cursor](#37-cursor) | Warm charcoal, stone | Soft stone zigzags on charcoal knit |
+| [Zen](#38-zen) | Charcoal, ivory | Ivory ripple rings on charcoal knit |
+| [Zen Work](#39-zen-work) | Forest green, cream | Cream ripple rings on forest knit |
+| [Element](#40-element) | Element green, white | White pinwheel arcs on green knit |
 
 ## 01 Finder
 
@@ -353,3 +356,27 @@ Soft stone zigzags on charcoal knit.
 **Palette:** Warm charcoal, stone.
 
 ![Cursor: window border, enlarged yarn and all four corners](collection/app-37.png)
+
+## 38 Zen
+
+Ivory ripple rings on charcoal knit.
+
+**Palette:** Charcoal, ivory.
+
+![Zen: window border, enlarged yarn and all four corners](collection/app-38.png)
+
+## 39 Zen Work
+
+Cream ripple rings on forest knit.
+
+**Palette:** Forest green, cream.
+
+![Zen Work: window border, enlarged yarn and all four corners](collection/app-39.png)
+
+## 40 Element
+
+White pinwheel arcs on green knit.
+
+**Palette:** Element green, white.
+
+![Element: window border, enlarged yarn and all four corners](collection/app-40.png)
