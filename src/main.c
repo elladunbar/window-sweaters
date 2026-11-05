@@ -259,7 +259,6 @@ int main(int argc, char** argv) {
   windows_reconcile_start();
 
   mach_server_begin(&g_mach_server, message_handler);
-  if (!update_mask) execute_config_file("window-sweaters", "sweatersrc");
 
   #ifdef _YABAI_INTEGRATION
   yabai_register_mach_port(&g_windows);
