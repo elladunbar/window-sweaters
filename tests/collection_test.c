@@ -17,7 +17,7 @@ static const char* const collection_names[] = {
   "atelier-spotify", "atelier-notion", "atelier-whatsapp", "atelier-figma",
   "atelier-chrome", "atelier-paper",
   "atelier-safari", "atelier-firefox", "atelier-cursor", "atelier-slack", "atelier-zoom", "atelier-telegram", "atelier-messages", "atelier-mail", "atelier-notes", "atelier-calendar", "atelier-reminders", "atelier-music", "atelier-photos", "atelier-preview", "atelier-word", "atelier-excel", "atelier-powerpoint", "atelier-outlook", "atelier-vscode", "atelier-photoshop", "atelier-illustrator",
-  "atelier-granola", "atelier-chatgpt", "atelier-ghostty", "atelier-zen", "atelier-element", "braid", "blockstripe", "checker", "seedling", "trim", "picnic", "ribbon", "posy", "twinkle", "candy-stripe", "zigzag"
+  "atelier-granola", "atelier-chatgpt", "atelier-ghostty", "atelier-zen", "atelier-element", "atelier-netnewswire", "atelier-readest", "braid", "blockstripe", "checker", "seedling", "trim", "picnic", "ribbon", "posy", "twinkle", "candy-stripe", "zigzag"
 };
 enum { COLLECTION_COUNT = sizeof collection_names / sizeof collection_names[0] };
 
@@ -64,7 +64,7 @@ static void test_apps(const char* home) {
   assert(strcmp(knit_app_rule("Google Chrome Helper")->chart, "atelier-chrome") == 0);
   assert(strcmp(knit_app_rule("Chrome")->chart, "atelier-chrome") == 0);
   assert(strcmp(knit_app_rule("Chromium")->chart, "atelier-chrome") == 0);
-  assert(CATALOGUE_COUNT == 40);
+  assert(CATALOGUE_COUNT == 42);
   for (int i = 0; i < CATALOGUE_COUNT; i++) {
     const struct app_rule* rule = knit_app_rule(catalogue[i].match);
     assert(rule && strcmp(rule->chart, catalogue[i].chart) == 0);
@@ -72,6 +72,7 @@ static void test_apps(const char* home) {
   assert(strcmp(knit_app_rule("Zoom")->chart, "atelier-zoom") == 0);
   assert(knit_app_rule("Zen")->color == 0xff232322 && knit_app_rule("Zen Work")->color == 0xff1a5632);
   assert(strcmp(knit_app_rule("Zen Work")->chart, "atelier-zen") == 0);
+  assert(strcmp(knit_app_rule("readest")->chart, "atelier-readest") == 0); // its executable name
   assert(strcmp(knit_app_rule("Visual Studio Code")->chart, "atelier-vscode") == 0);
   assert(strcmp(knit_app_rule("Adobe Photoshop 2026")->chart, "atelier-photoshop") == 0);
   assert(knit_app_rule("Electron") == NULL);
@@ -187,7 +188,7 @@ static void test_preserved_charts(void) {
 }
 
 static void test_charts(const char* dir) {
-  assert(COLLECTION_COUNT == 49);
+  assert(COLLECTION_COUNT == 51);
   assert(knit_charts_load("/does-not-exist/knit-test") == COLLECTION_COUNT);
   for (int i = 0; i < COLLECTION_COUNT; i++) {
     assert(knit_chart_index(collection_names[i]) == i); // names are unique and stable
@@ -292,6 +293,6 @@ int main(void) {
   assert(rmdir(support) == 0);
   assert(rmdir(library) == 0);
   assert(rmdir(home) == 0);
-  puts("Collection tests passed: 40 app profiles, 49 valid charts, strict parsing, app precedence, By App/global/plain patterns, Chrome, overrides, stable reloads.");
+  puts("Collection tests passed: 42 app profiles, 51 valid charts, strict parsing, app precedence, By App/global/plain patterns, Chrome, overrides, stable reloads.");
   return 0;
 }

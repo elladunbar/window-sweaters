@@ -189,6 +189,14 @@ static const struct collection_chart k_collection[] = {
       "..aa.....", ".aa.a....", "a...aa...",
       "aa...a...", ".a.aa....", "..aa....." },
     { 0xfff3f9f6u } },
+  { "atelier-netnewswire", {
+      "............", "bb.aa.bb....", "bbaaaabb....",
+      "bbaaaabb....", "bb.aa.bb....", "............" },
+    { 0xfff6f4ecu, 0xfff5d55eu } },
+  { "atelier-readest", {
+      "aa.....aa...", "aaaa.aaaa...", "abba.abba...",
+      "abba.abba...", "aaaaaaaaa...", "....c......." },
+    { 0xfff7ebc0u, 0xffc98a3cu, 0xffd0742eu } },
   { "braid", {
       "abb........a", "a.bb......aa", "...bb....aaa",
       "....bb..aaa.", ".....bbaaa..", "......bba...",

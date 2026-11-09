@@ -42,5 +42,7 @@ static const struct catalogue_entry catalogue[] = {
   { "Zen", "Zen", "atelier-zen", "Charcoal, ivory", "Ivory ripple rings on charcoal knit" },
   { "Zen Work", "Zen Work", "atelier-zen", "Forest green, cream", "Cream ripple rings on forest knit" },
   { "Element", "Element", "atelier-element", "Element green, white", "White pinwheel arcs on green knit" },
+  { "NetNewsWire", "NetNewsWire", "atelier-netnewswire", "Sky blue, white, sunny yellow", "Little satellites on sky-blue knit" },
+  { "Readest", "Readest", "atelier-readest", "Book brown, cream, amber, orange", "Open books with ribbon bookmarks" },
 };
 enum { CATALOGUE_COUNT = sizeof catalogue / sizeof catalogue[0] };

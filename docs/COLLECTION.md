@@ -1,8 +1,8 @@
 # The sweater collection
 
-40 app-inspired colourways, rendered by Window Sweaters. Choose **Pattern → By App** to give each app its own sweater, or **Zigzag** for a shared pattern in each app’s icon colour.
+42 app-inspired colourways, rendered by Window Sweaters. Choose **Pattern → By App** to give each app its own sweater, or **Zigzag** for a shared pattern in each app’s icon colour.
 
-[Download the By App catalogue](catalogues/Window-Sweaters-Catalogue.pdf) (the original 37 apps; Zen, Zen Work and Element are only on this page)
+[Download the By App catalogue](catalogues/Window-Sweaters-Catalogue.pdf) (the original 37 apps; 38–42 are only on this page)
 
 The PDF shows the default **12 pt width and six stitch rows**. The reference plates below use 10 pt borders and include enlarged yarn and all four corners. All collection images use the actual app renderer and built-in colourways, without personal overrides.
 
@@ -12,7 +12,7 @@ Visible knitted stitches, restrained colour palettes, and familiar sweater patte
 
 Most corners continue the pattern. WhatsApp uses textured corner patches; Notes and Calendar have curved outer cuffs. Stitch direction changes and partial motifs can remain visible at corner joins, especially when enlarged. The images show a reference window size, not a guarantee of identical joins at every size.
 
-Global Zigzag gives every app one shared pattern in colours taken from its own icon, softened into yarn, with a cream zigzag. On a pale app the zigzag is a deeper shade of the app’s own colour instead, so it still shows. This includes the 40 apps above: their hand-picked colours stay in By App. An app whose icon has no usable colour keeps its usual colour, and a colour you set yourself in `apps.conf` always wins. If you replace the pattern with your own `zigzag.png`, it is shown exactly as you drew it. In the rare case Window Sweaters runs out of room for a pale app’s zigzag, that app knits plain until there is room.
+Global Zigzag gives every app one shared pattern in colours taken from its own icon, softened into yarn, with a cream zigzag. On a pale app the zigzag is a deeper shade of the app’s own colour instead, so it still shows. This includes the 42 apps above: their hand-picked colours stay in By App. An app whose icon has no usable colour keeps its usual colour, and a colour you set yourself in `apps.conf` always wins. If you replace the pattern with your own `zigzag.png`, it is shown exactly as you drew it. In the rare case Window Sweaters runs out of room for a pale app’s zigzag, that app knits plain until there is room.
 
 App names describe colour inspiration and do not imply affiliation or endorsement.
 
@@ -60,6 +60,8 @@ App names describe colour inspiration and do not imply affiliation or endorsemen
 | [Zen](#38-zen) | Charcoal, ivory | Ivory ripple rings on charcoal knit |
 | [Zen Work](#39-zen-work) | Forest green, cream | Cream ripple rings on forest knit |
 | [Element](#40-element) | Element green, white | White pinwheel arcs on green knit |
+| [NetNewsWire](#41-netnewswire) | Sky blue, white, sunny yellow | Little satellites on sky-blue knit |
+| [Readest](#42-readest) | Book brown, cream, amber, orange | Open books with ribbon bookmarks |
 
 ## 01 Finder
 
@@ -380,3 +382,19 @@ White pinwheel arcs on green knit.
 **Palette:** Element green, white.
 
 ![Element: window border, enlarged yarn and all four corners](collection/app-40.png)
+
+## 41 NetNewsWire
+
+Little satellites on sky-blue knit.
+
+**Palette:** Sky blue, white, sunny yellow.
+
+![NetNewsWire: window border, enlarged yarn and all four corners](collection/app-41.png)
+
+## 42 Readest
+
+Open books with ribbon bookmarks.
+
+**Palette:** Book brown, cream, amber, orange.
+
+![Readest: window border, enlarged yarn and all four corners](collection/app-42.png)
